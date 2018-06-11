@@ -39,13 +39,12 @@ export default {
 .picture__image {
   flex-grow: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #f5f5f5;
 }
 .responsive-image {
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
 }
 .picture__description {
   display: flex;
@@ -57,8 +56,11 @@ export default {
   flex-grow: 1;
   margin-left: 10px;
 }
+.picture__description-button {
+  display: flex;
+  justify-content: flex-end;
+}
 .picture__description-button button {
-  float: right;
   margin: 0 10px 10px 0;
   padding: 5px 10px;
   background-color: #ffffff;

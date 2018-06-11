@@ -67,7 +67,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
 }
 .pictures__gallery-picture {
   width: 100%;
